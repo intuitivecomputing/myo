@@ -1,0 +1,4 @@
+<launch>
+<include file="$(find ros_myo)/launch/myo.launch"/>
+<node pkg="ros_myo" type="emg_ascii_graph.py" name="emg_ascii_graph.py" output="screen"/>
+</launch>
